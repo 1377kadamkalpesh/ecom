@@ -10,7 +10,7 @@ import Popular from "../COMPONENT/Popular/Popular";
 const Product = () =>{
     const{New_data} = useContext (ShopeContext);
     const {productId} = useParams();
-    const product = New_data.find((e) => e.id === Number (productId))
+    const product = New_data.find((e) => e.id === Number(productId))
     return(
         <>
             <div>
